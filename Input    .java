@@ -31,17 +31,26 @@ class GetInputFromUser
 { 
 	public static void main(String args[]) 
 	{ 
-		// Using Scanner for Getting Input from User 
+		//Using Scanner for Getting Input from User 
 		Scanner in = new Scanner(System.in); 
 
 		String s = in.nextLine(); 
 		System.out.println("You entered string "+s); 
-
+/**
+nextBoolean()		Reads a boolean value from the user
+nextByte()   		Reads a byte value from the user
+nextDouble()		Reads a double value from the user
+nextFloat()	 	Reads a float value from the user
+nextInt()		Reads a int value from the user
+nextLine()		Reads a String value from the user
+nextLong()		Reads a long value from the user
+nextShort()		Reads a short value from the user
+**/
 		int a = in.nextInt(); 
 		System.out.println("You entered integer "+a); 
 
 		float b = in.nextFloat(); 
-		System.out.println("You entered float "+b); 
+		System.out.println("You entered float "+b);
 	} 
 } 
 
