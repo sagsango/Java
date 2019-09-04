@@ -1,3 +1,5 @@
+//https://www.geeksforgeeks.org/inheritance-in-java/
+
 class Calculation {
    int z;
 	
@@ -26,3 +28,5 @@ public class My_Calculation extends Calculation {
       demo.multiplication(a, b);
    }
 }
+
+
