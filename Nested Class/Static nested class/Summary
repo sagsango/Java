@@ -1,0 +1,13 @@
+/**
+ * Outer class can't be static
+ * Nested class can be static
+ * Method inside the class can be static
+ * Method inside the non static nested class can't be static
+ * Method inside the static nested class can be static
+ * 
+ * When method is static it need not the obj of its class
+ * When nested class is static it need not obj of outer class
+ * So when nested static class have static method then it can be accessed with out any objet
+ * OuterClassName.IneerClassName.StaticMethodName();
+ **/
+	
