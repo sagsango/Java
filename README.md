@@ -10,3 +10,5 @@ https://www.geeksforgeeks.org/java/
 https://classroom.udacity.com/courses/ud283
 
 https://classroom.udacity.com/courses/ud282
+
+https://www.javatpoint.com/java-tutorial
